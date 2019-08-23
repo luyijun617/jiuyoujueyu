@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c52dc1e-0c6f-4189-91a2-ef9cdd3c6884" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/RunApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="4" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="XSLT Stylesheet" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>thy</find>
+      <find>thymeleaf</find>
+      <find>spring-boot-starter-web</find>
+      <find>kaptcha</find>
+      <find>resources</find>
+      <find>index</find>
+      <find>spring-boot-de</find>
+      <find>re</find>
+      <find>热</find>
+      <find>statics</find>
+      <find>clock-place</find>
+      <find>core</find>
+      <find>ready</find>
+      <find>cn.zhishu.finance.creaditcard.query.web.dao.LuyUserLoginDao</find>
+      <find>CONDITIONS EVALUATION REPORT</find>
+      <find>EVALUATION</find>
+      <find>TestProxy</find>
+      <find>insert</find>
+      <find>target</find>
+      <find>proxy</find>
+      <find>LuyUserLoginDao</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/api/response/CreditCardQueryResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/statics/libs/jquery.codehim.clock.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/console.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/entity/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/AddProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/LuyUserLoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/entity/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhishu/finance/creaditcard/query/web/service/LuyUserLoginServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/AddUserInfoProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/RunApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/dao/LuyUserLoginDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/luyijun/www/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/luyijun/www/TestProxy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhishu/finance/creaditcard/query/web/service/TestProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/LuyUserLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhishu/finance/creaditcard/query/TestJdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LuyUserLoginMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/LuyUserLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/Arithmetic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/ArithmeticImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/interceptor/ObjectProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/interceptor/ServiceProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/interceptor/TestJdkProxy123.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/MyInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/interceptor/TestJdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/interceptor/AddUserInfoProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/service/ProxyObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/Thread/TestCallable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhishu/finance/creaditcard/query/TestProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/statics/js/modules/register.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/base.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/statics/js/register.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/statics/base.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/Fitness/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/fitnessconfig/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/configuration/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/configuration/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/web/interceptor/TestJdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/controller/TestCallable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/RunApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="IntelliJConfiguration">
+    <option name="PROPERTY_FILES">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="REMOVE_NBSP" value="true" />
+    <option name="CREATE_NEW_JSP" value="true" />
+    <option name="KEY_RESOLUTION_TYPE" value="Use all words in label" />
+    <option name="PROMPT_FOR_KEY_PREFIX" value="false" />
+    <option name="LABEL_PART_1" value="&lt;bean:message key=&quot;" />
+    <option name="LABEL_PART_2" value="&quot;/&gt;" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="jiuyoujueyu/invalid/Spring" />
+      <facet id="jiuyoujueyu/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jiuyoujueyu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jiuyoujueyu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>ArquillianJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bidirectional TextInternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Control flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flowJava</id>
+          </State>
+          <State>
+            <id>Data flowJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>FlexUnit</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LoggingJava</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Method metricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsKotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Reactor</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective accessJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>TypographyUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>UI Form</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jiuyoujueyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiuyoujueyu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiuyoujueyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiuyoujueyu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiuyoujueyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiuyoujueyu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiuyoujueyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiuyoujueyu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiuyoujueyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiuyoujueyu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="WebApplicationInitializer &#9;PSI&#9;JAVA://org.springframework.web.WebApplicationInitializer&#10;SpringServletContainerInitializer&#9;PSI&#9;JAVA://org.springframework.web.SpringServletContainerInitializer&#10;throwable&#9;PSI&#9;JAVA://java.lang.Throwable&#10;threalable&#9;null&#9;null&#10;futur&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;callable&#9;PSI&#9;JAVA://java.util.concurrent.Callable&#10;luyUserLogi&#9;FILE&#9;file://F:/zhishu/jiuyoujueyu/src/main/resources/mapper/LuyUserLoginMapper.xml&#10;LuyUserLoginma&#9;FILE&#9;file://F:/zhishu/jiuyoujueyu/src/main/resources/mapper/LuyUserLoginMapper.xml&#10;LuyUserLoginDao&#9;FILE&#9;file://F:/zhishu/jiuyoujueyu/src/main/java/cn/zhishu/finance/creaditcard/query/web/dao/LuyUserLoginDao.java&#10;UserInfo&#9;FILE&#9;file://F:/zhishu/jiuyoujueyu/src/main/java/cn/zhishu/finance/creaditcard/query/entity/UserInfo.java&#10;LuyUserLogin&#9;FILE&#9;file://F:/zhishu/jiuyoujueyu/src/main/resources/mapper/LuyUserLoginMapper.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/main/resources/application.properties" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566118563160" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.zhishu.finance.creaditcard.query.web.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.luyijun.fitness" />
+      <recent name="cn.zhishu.finance.creaditcard.query.web.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\zhishu\jiuyoujueyu\src\main\resources\templates" />
+      <recent name="F:\zhishu\jiuyoujueyu\src\main\resources\statics\js\modules" />
+      <recent name="F:\zhishu\jiuyoujueyu\src\main\resources\mapper" />
+      <recent name="F:\zhishu\jiuyoujueyu\src\main" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.zhishu.finance.creaditcard.query.web.interceptor" />
+      <recent name="cn.luyijun.www" />
+      <recent name="cn.zhishu.finance.creaditcard.query.domain" />
+      <recent name="cn.zhishu.finance.creaditcard.query.api.request" />
+      <recent name="cn.zhishu.finance.creaditcard.query.api.response" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\zhishu\jiuyoujueyu\src\main\resources\statics" />
+      <recent name="F:\zhishu\jiuyoujueyu\src\main\resources\statics\js" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RunApplication">
+    <configuration name="RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.luyijun.fitness.RunApplication" />
+      <module name="jiuyoujueyu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.luyijun.fitness.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jiuyoujueyu [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.RunApplication" />
+      <item itemvalue="Maven.jiuyoujueyu [install]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c52dc1e-0c6f-4189-91a2-ef9cdd3c6884" name="Default Changelist" comment="" />
+      <created>1557715130781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557715130781</updated>
+      <workItem from="1557715134272" duration="2147000" />
+      <workItem from="1557717421694" duration="2669000" />
+      <workItem from="1566531168211" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestProxy_test - 2019.07.22 at 18h 54m 36s.xml">
+      <configuration name="TestProxy.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.22 at 19h 06m 10s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.22 at 19h 06m 35s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.22 at 19h 07m 10s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.22 at 19h 13m 03s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.23 at 11h 45m 12s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.23 at 11h 51m 10s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.23 at 11h 54m 31s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.23 at 11h 56m 31s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProxy_main - 2019.07.23 at 11h 57m 09s.xml">
+      <configuration name="TestProxy.main" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4946000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5715835" visible="true" weight="0.19804402" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28060672" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.22318527" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.39154014" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="JspScanner" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.16364606" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16311301" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.27017114" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.4284165" weight="0.16897655" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5715835" visible="true" weight="0.17643923" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3109426" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.39111593" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.39154014" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="JspScanner" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.16364606" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16311301" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.27059773" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.4284165" weight="0.16897655" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/interceptor/AddUserInfoProxy.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/service/MyInvocationHandler.java</url>
+          <line>16</line>
+          <properties class="cn.luyijun.fitness.web.service.MyInvocationHandler" method="invoke">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>target.ge</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>luyUserLoginDao</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>method.invoke(target, args);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LuyUserLoginServiceImpl.class.getDeclaredMethods()[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LuyUserLoginServiceImpl.class.getDeclaredMethods()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LuyUserLoginServiceImpl.class</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LuyUserLoginServiceImpl.class.getMethod(&quot;insert&quot;,UserInfo.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LuyUserLoginServiceImpl.class.getMethod(&quot;insert&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LuyUserLoginServiceImpl.class.getMethod()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LuyUserLoginServiceImpl.class.getMethod(&quot;insert&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>proxy1.getClass().getInterfaces()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxy1.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxy1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxyInstance.getClass().getDeclaredMethods()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxyInstance.getClass().getInterfaces()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxyInstance.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxyInstance instanceof LuyUserLoginDao</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxyInstance instanceof LuyUserLoginDaoImpl.class</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proxyInstance instanceof LuyUserLoginDaoImpl</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhishu/finance/creaditcard/query/web/service/LuyUserLoginServiceImplTest.java" />
+    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/boot/spring-boot-test/2.0.4.RELEASE/spring-boot-test-2.0.4.RELEASE-sources.jar!/org/springframework/boot/test/context/SpringBootTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/luyijun/fitness/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/service/LuyUserLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/dao/LuyUserLoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java" />
+    <entry file="file://$PROJECT_DIR$/jiuyoujueyu.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhishu/finance/creaditcard/query/TestJdkProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LuyUserLoginMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/interceptor/ObjectProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhishu/finance/creaditcard/query/web/interceptor/ServiceProxyFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/interceptor/AddUserInfoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/service/Arithmetic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/service/ArithmeticImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/console.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/statics/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/service/ProxyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_171/src.zip!/java/lang/reflect/Proxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/service/MyInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/statics/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/statics/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/statics/js/modules/activity/financeactivityconfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_171/src.zip!/java/lang/reflect/InvocationHandler.java" />
+    <entry file="jar://F:/jdk1.8.0_171/src.zip!/java/util/concurrent/Callable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/entity/request/CreditCardQueryRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/configuration/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/entity/response/CreditCardQueryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_171/src.zip!/java/lang/Throwable.java" />
+    <entry file="jar://F:/jdk1.8.0_171/src.zip!/java/util/concurrent/Future.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/interceptor/TestJdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/service/LuyUserLoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/luyijun/fitness/TestProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/configuration/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/SpringServletContainerInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/controller/TestCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/WebApplicationInitializer.java" />
+    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/luyijun/fitness/RunApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="4" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jiuyoujueyu</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

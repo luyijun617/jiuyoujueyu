@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: cn.zhishu.finance.creaditcard.query.TestProxy
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.945 s <<< FAILURE! - in cn.zhishu.finance.creaditcard.query.TestProxy
+test(cn.zhishu.finance.creaditcard.query.TestProxy)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: com.sun.proxy.$Proxy91 cannot be cast to cn.zhishu.finance.creaditcard.query.web.service.LuyUserLoginService
+	at cn.zhishu.finance.creaditcard.query.TestProxy.test(TestProxy.java:83)
+

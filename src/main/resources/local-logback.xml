@@ -90,20 +90,20 @@
         </encoder>
     </appender>
     <!-- 预定义如下几个logger -->
-    <logger name="cn.zhishush.finance.creditcard" level="INFO" additivity="false">
+    <logger name="cn.luyijun.fitness" level="INFO" additivity="false">
     		<appender-ref ref="bizLog" />
         <appender-ref ref="frameworkLog" />
         <appender-ref ref="console" />
     </logger>
-     <logger name="cn.zhishush.finance.creditcard" level="INFO" additivity="false">
+     <logger name="cn.luyijun.fitness" level="INFO" additivity="false">
         <appender-ref ref="bizLog" />
          <appender-ref ref="console" />
     </logger>
-    <logger name="cn.zhishush.finance.creditcard" level="WARN" additivity="false">
+    <logger name="cn.luyijun.fitness" level="WARN" additivity="false">
         <appender-ref ref="warnLog" />
         <appender-ref ref="console" />
     </logger>
-    <logger name="cn.zhishush.finance.creditcard" level="ERROF" additivity="false">
+    <logger name="cn.luyijun.fitness" level="ERROF" additivity="false">
         <appender-ref ref="errorLog" />
         <appender-ref ref="console" />
     </logger>

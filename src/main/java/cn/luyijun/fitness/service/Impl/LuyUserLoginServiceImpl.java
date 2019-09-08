@@ -1,7 +1,8 @@
-package cn.luyijun.fitness.service;
+package cn.luyijun.fitness.service.Impl;
 
 import cn.luyijun.fitness.entity.UserInfo;
 import cn.luyijun.fitness.dao.LuyUserLoginDao;
+import cn.luyijun.fitness.service.LuyUserLoginService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

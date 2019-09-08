@@ -2,9 +2,9 @@ package cn.luyijun.fitness.interceptor;
 
 import cn.luyijun.fitness.entity.UserInfo;
 import cn.luyijun.fitness.service.Arithmetic;
-import cn.luyijun.fitness.service.ArithmeticImpl;
+import cn.luyijun.fitness.service.Impl.ArithmeticImpl;
 import cn.luyijun.fitness.service.LuyUserLoginService;
-import cn.luyijun.fitness.service.ProxyObject;
+import cn.luyijun.fitness.controller.ProxyObject;
 
 import javax.annotation.Resource;
 

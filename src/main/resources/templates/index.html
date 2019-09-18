@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <!--<html xmlns:th="http://www.thymeleaf.org">-->
-<!--<html lang="zh">-->
-<html lang="en">
+<html lang="zh">
+<!--<html lang="en">-->
 <head>
     <meta charset="UTF-8"/>
     <title>首页</title>
+<!--    <script type="text/javascript" src="../libs/jquery-1.11.0.min.js"></script>-->
+<!--    <script type="text/javascript" src="./libs/jquery-1.11.0.min.js"></script>-->
+    <script>
+        // $(function () {
+            // $("#upload").click(function () {
+            //     alert("123")
+            // }),
+        // })
+        function pictureUpload() {
+            alert("pictureUpload")
+        }
+        function picDownload() {
+            alert("picDownload")
+        }
+    </script>
 </head>
 <body>
+<table>
+    <tr>
+        <td><h1>Hello world!</h1></td>
+    </tr>
+    <tr>
+        <td>图片上传：<input type="text" id="upload" onclick="pictureUpload"/></td>
+    </tr>
+    <tr>
+        <td>图片下载：<input type="text" id="download" onblur="picDownload"/></td>
+    </tr>
+    <tr>
+        <td><img src="/img/home-cat.jpg"/></td>
+    </tr>
+</table>
 
-<script src="../libs/jquery-1.11.0.min.js" type="text/javascript"></script>
-<script src="./libs/jquery-1.11.0.min.js" type="text/javascript"></script>
 
 </body>
-<h1>Hello world!</h1>
-<p><img src="./img/home-cat.jpg"/></p>
 </html>

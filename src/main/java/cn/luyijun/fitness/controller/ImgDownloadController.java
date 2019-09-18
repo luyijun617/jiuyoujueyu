@@ -1,5 +1,6 @@
 package cn.luyijun.fitness.controller;
 
+import cn.luyijun.fitness.enums.FileTypeEnums;
 import cn.luyijun.fitness.enums.SystemConstants;
 import io.netty.handler.codec.base64.Base64Decoder;
 import io.netty.handler.codec.base64.Base64Encoder;
@@ -68,6 +69,7 @@ public class ImgDownloadController {
             byte[] bytes = baos.toByteArray();
 
             System.out.println("========================");
+            System.out.println("========================");
             System.out.println(Arrays.toString(bytes));
             String encode = new BASE64Encoder().encode(bytes);//返回Base64编码过的字节数组字符串
 
@@ -76,8 +78,8 @@ public class ImgDownloadController {
 //                imgBuffer[i] = bytes[i];
 //            }
 //            imgSuffix = getImageFormat(imgBuffer);
-            imgSuffix = getImageFormat(imgPathName);
-
+//            imgSuffix = getImageFormat(imgPathName);
+            imgSuffix = getImageFormat(bytes);
             String pngPrefix = "data:image/" + imgSuffix.toLowerCase() + ";base64,";
             base64ToImage(encode,SystemConstants.FILE_DOWNLOAD_PATH,imgName.substring(0,imgName.lastIndexOf(".")+1)+imgSuffix);
             result = pngPrefix + encode;
@@ -116,17 +118,31 @@ public class ImgDownloadController {
         return formatName;
     }
 
+    /**
+     * 获取文件头信息，该方法可以获取所有文件的类型
+     * @param byteArray
+     * @return
+     */
     public String getImageFormat(byte[] byteArray){
-        StringBuilder hexString = new StringBuilder();
-        for (byte aByteArray : byteArray) {
-            if ((aByteArray & 0xff) < 0x10) {
-                hexString.append("0");
+        byte[] src = new byte[28];
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < src.length; i++) {
+            int v = byteArray[i] & 0xFF;
+            String hv = Integer.toHexString(v).toUpperCase();
+            if (hv.length() < 2) {
+                stringBuilder.append(0);
             }
-            hexString.append(Integer.toHexString(0xFF & aByteArray));
+            stringBuilder.append(hv);
         }
-        String s = hexString.toString().toLowerCase();
-        System.out.println("格式：" + s);
-        return s;
+        String type = stringBuilder.toString();
+        FileTypeEnums[] values = FileTypeEnums.values();
+        for (FileTypeEnums enums : values) {
+            if(type.startsWith(enums.getFileType())){
+                System.out.println(type + ",对应的文件格式：" + enums.name());
+                return enums.name().toLowerCase();
+            }
+        }
+        return "文件格式错误";
     }
 
     public void base64ToImage(String base64Code ,String imgDirectory,String imgName){
@@ -145,24 +161,5 @@ public class ImgDownloadController {
         }
     }
 
-    public static void main(String[] args) {
-
-
-        try {
-            String str = "abc123中文";
-            String s1 = Arrays.toString((str.getBytes("utf-8")));
-            String s2 = Arrays.toString((str.getBytes("unicode")));
-            System.out.println(s1);
-            System.out.println(s2);
-            System.out.println("=====================");
-            System.out.println(new String(str.getBytes("utf-8"),"unicode"));
-            System.out.println(new String(str.getBytes("unicode"),"unicode"));
-
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        String str = "abcd/;kzdf";
-        System.out.println(str.substring(str.lastIndexOf(".")));
-    }
 
 }

@@ -8,7 +8,7 @@
         <version>2.0.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>cn.zhishu.finance.creaditcard.query</groupId>
+    <groupId>cn.luyijun.fitness</groupId>
     <artifactId>jiuyoujueyu</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jiuyoujueyu</name>
@@ -108,26 +108,8 @@
             <version>2.9.0</version>
         </dependency>
 
-        <!--<dependency>-->
-        <!--<groupId>cn.zhishush.finance</groupId>-->
-        <!--<artifactId>finance-app</artifactId>-->
-        <!--<version>0.0.1-SNAPSHOT</version>-->
-        <!--<scope>compile</scope>-->
-        <!--</dependency>-->
     </dependencies>
-    <!-- 远程部署管理信息 -->
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>maven-releases</id>-->
-<!--            <name>User Project Release</name>-->
-<!--            <url>http://test.zhishush.cn/nexus/content/repositories/releases/</url>-->
-<!--        </repository>-->
-<!--        <snapshotRepository>-->
-<!--            <id>maven-snapshots</id>-->
-<!--            <name>User Project SNAPSHOTS</name>-->
-<!--            <url>http://test.zhishush.cn/nexus/content/repositories/snapshots/</url>-->
-<!--        </snapshotRepository>-->
-<!--    </distributionManagement>-->
+
     <!--仓库路径 -->
     <repositories>
         <repository>

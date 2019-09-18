@@ -4,7 +4,7 @@ import cn.luyijun.fitness.entity.UserInfo;
 import cn.luyijun.fitness.dao.LuyUserLoginDao;
 import cn.luyijun.fitness.interceptor.AddUserInfoProxy;
 import cn.luyijun.fitness.service.LuyUserLoginService;
-import cn.luyijun.fitness.service.LuyUserLoginServiceImpl;
+import cn.luyijun.fitness.service.Impl.LuyUserLoginServiceImpl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -19,7 +19,6 @@ import java.lang.reflect.Proxy;
 
 //@RunWith(SpringRunner.class)
 //@SpringBootTest(classes = Application.class)
-//@ComponentScan("cn.zhishu.finance.creaditcard.query")
 //@WebAppConfiguration
 @Slf4j
 @RunWith(SpringJUnit4ClassRunner.class)

@@ -1,5 +1,6 @@
-package cn.luyijun.fitness.service;
+package cn.luyijun.fitness.controller;
 
+import cn.luyijun.fitness.controller.MyInvocationHandler;
 import cn.luyijun.fitness.dao.LuyUserLoginDao;
 
 import java.lang.reflect.InvocationHandler;

@@ -24,8 +24,7 @@ public class RestTemplateConfig {
     @Bean
     public RestTemplate restTemplate(ClientHttpRequestFactory factory) {
         RestTemplate restTemplate = new RestTemplate(factory);
-        restTemplate
-            .setInterceptors(Collections.singletonList(loggingClientHttpRequestInterceptor));
+        restTemplate.setInterceptors(Collections.singletonList(loggingClientHttpRequestInterceptor));
         return restTemplate;
     }
 

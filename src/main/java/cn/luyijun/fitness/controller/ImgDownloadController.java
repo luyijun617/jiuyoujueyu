@@ -148,7 +148,7 @@ public class ImgDownloadController {
     @RequestMapping("/copyFile")
     @ResponseBody
     public void copyFile(){
-        String src = "C:\\Users\\lyj\\Desktop\\miko\\ideaIU-2019.1.1.exe";
+        String src = "C:\\Users\\lyj\\Desktop\\miko\\download.rar";
         File srcFile = new File(src);
         String dist = null;
         try {
@@ -162,7 +162,7 @@ public class ImgDownloadController {
         if(!parentFile.exists()){
             parentFile.mkdirs();
         }
-        copyFileByStream(srcFile,distFile);
+//        copyFileByStream(srcFile,distFile);
 
 
         try {
@@ -211,18 +211,25 @@ public class ImgDownloadController {
             fos = new FileOutputStream(distFile);
             inChannel = fis.getChannel();
             outChannel = fos.getChannel();
-            ByteBuffer buffer = ByteBuffer.allocate(1024);
-            while (inChannel.read(buffer) != -1){
-                buffer.flip();
-                outChannel.write(buffer);
-                buffer.clear();
-            }
+            //方式一
+//            ByteBuffer buffer = ByteBuffer.allocate(1024);
+//            while (inChannel.read(buffer) != -1){
+//                buffer.flip();
+//                outChannel.write(buffer);
+//                buffer.clear();
+//            }
+            //方式二
 //            long size = inChannel.size();
 //            long pos = 0L;
 //            for (long count = 0L; pos < size; ) {
 //                count = size - pos > 31457280L ? 31457280L : size - pos;
 //                pos += outChannel.transferFrom(inChannel, pos, count);
 //            }
+            //方式三
+//            inChannel.transferTo(0,inChannel.size(),outChannel);
+            //方式四
+//            inChannel.transferFrom(outChannel,0,inChannel.size());
+            outChannel.transferFrom(inChannel,0,inChannel.size());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

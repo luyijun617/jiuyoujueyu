@@ -12,9 +12,6 @@ import java.io.IOException;
 
 /**
  * <p>日志拦截器</p>
- *
- * @author lili
- * @version 1.0: LoggingClientHttpRequestInterceptor.java, v0.1 2019-01-12 14:03 PM lili Exp $
  */
 @Component("loggingClientHttpRequestInterceptor")
 public class LoggingClientHttpRequestInterceptor implements ClientHttpRequestInterceptor {

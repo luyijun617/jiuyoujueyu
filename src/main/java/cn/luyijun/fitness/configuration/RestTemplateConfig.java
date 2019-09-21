@@ -12,8 +12,6 @@ import java.util.Collections;
 
 /**
  * <p>RestTemplate配置类</p>
- * @author lili
- * @version 1.0: RestTemplateConfig.java, v0.1 2019-01-10 16:38 lili Exp $
  */
 @Configuration
 public class RestTemplateConfig {

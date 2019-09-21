@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="3600 second" >
 
-    <!--<property name="logPath" value="/Users/lili/Documents/logs/finance-card-query/log/app" />-->
     <property name="logPath" value="/Users/user/Documents/logs/finance-card-query/log/app" />
     <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
         <resetJUL>true</resetJUL>

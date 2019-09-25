@@ -1,4 +1,12 @@
-.idea/
+*.iml
+/.idea
+/target
+*.svn
+/.settings/
+/.classpath
+/.project
+.DS_Store
+/.idea/
 /target/
-.mvn
-.iml
+/bin/
+/src/main/resources/rebel.xml

@@ -154,117 +154,12 @@ public class ImgDownloadController {
         }
     }
 
-    @RequestMapping("/copyFile")
-    @ResponseBody
-    public void copyFile(){
-        String src = "C:\\Users\\lyj\\Desktop\\miko\\download.rar";
-        File srcFile = new File(src);
-        String dist = null;
-        try {
-            dist = SystemConstants.FILE_DOWNLOAD_PATH + File.separator + new SimpleDateFormat("HHmmss").format(new Date()) + fixNNum(4)
-                    + srcFile.getCanonicalPath().substring(srcFile.getCanonicalPath().lastIndexOf("."));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        File distFile = new File(dist);
-        File parentFile = distFile.getParentFile();
-        if(!parentFile.exists()){
-            parentFile.mkdirs();
-        }
-//        copyFileByStream(srcFile,distFile);
 
-
-        try {
-            dist = SystemConstants.FILE_DOWNLOAD_PATH + File.separator + new SimpleDateFormat("HHmmss").format(new Date()) + fixNNum(4)
-                    + srcFile.getCanonicalPath().substring(srcFile.getCanonicalPath().lastIndexOf("."));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        File file = new File(dist);
-        copyFileByFileChannel(srcFile,file);
-    }
-
-    public void copyFileByStream(File srcFile,File distFile){
-        long beginTime = System.currentTimeMillis();
-        FileInputStream fis = null;
-        FileOutputStream fos = null;
-        try {
-            fis = new FileInputStream(srcFile);
-            fos = new FileOutputStream(distFile);
-            byte[] bytes = new byte[1024];
-            int len;
-            while ((len = fis.read(bytes)) > 0){
-                fos.write(bytes,0,len);
-            }
-        }catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }finally {
-            IOUtils.closeQuietly(fis);
-            IOUtils.closeQuietly(fos);
-        }
-        long endTime = System.currentTimeMillis();
-        System.out.println("copyFileByStream,耗时:" + (endTime - beginTime) + " ms" );
-    }
-
-
-    public void copyFileByFileChannel(File srcFile,File distFile) {
-        long beginTime = System.currentTimeMillis();
-        FileInputStream fis = null;
-        FileOutputStream fos = null;
-        FileChannel inChannel = null;
-        FileChannel outChannel = null;
-        try {
-            fis = new FileInputStream(srcFile);
-            fos = new FileOutputStream(distFile);
-            inChannel = fis.getChannel();
-            outChannel = fos.getChannel();
-            //方式一
-//            ByteBuffer buffer = ByteBuffer.allocate(1024);
-//            while (inChannel.read(buffer) != -1){
-//                buffer.flip();
-//                outChannel.write(buffer);
-//                buffer.clear();
-//            }
-            //方式二
-//            long size = inChannel.size();
-//            long pos = 0L;
-//            for (long count = 0L; pos < size; ) {
-//                count = size - pos > 31457280L ? 31457280L : size - pos;
-//                pos += outChannel.transferFrom(inChannel, pos, count);
-//            }
-            //方式三
-//            inChannel.transferTo(0,inChannel.size(),outChannel);
-            //方式四
-//            inChannel.transferFrom(outChannel,0,inChannel.size());
-            outChannel.transferFrom(inChannel,0,inChannel.size());
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }finally {
-            IOUtils.closeQuietly(inChannel);
-            IOUtils.closeQuietly(outChannel);
-            IOUtils.closeQuietly(fis);
-            IOUtils.closeQuietly(fos);
-        }
-        long endTime = System.currentTimeMillis();
-        System.out.println("copyByFileChannel,耗时:" + (endTime - beginTime) + " ms" );
-    }
-
-
-    public static String fixNNum(int n){
-        Random random = new Random();
-        StringBuffer stringBuffer = new StringBuffer("");
-        for (int i=0;i<n;i++){
-            stringBuffer.append(random.nextInt(10));
-        }
-        return stringBuffer.toString();
-    }
-
-
-
+    /**
+     * MD5 加密
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         String str = "123456";
         MessageDigest md5 = null;
@@ -297,7 +192,7 @@ public class ImgDownloadController {
 
 
         // 生成一个MD5加密计算摘要
-//        MessageDigest md = MessageDigest.getInstance("MD5");
+//        MessageDigest md5 = MessageDigest.getInstance("MD5");
         // 计算md5函数
         md5.update(str.getBytes());
         // digest()最后确定返回md5 hash值，返回值为8位字符串。因为md5 hash值是16位的hex值，实际上就是8位的字符

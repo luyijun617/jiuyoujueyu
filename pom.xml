@@ -124,6 +124,12 @@
             <artifactId>jjwt</artifactId>
             <version>0.6.0</version>
         </dependency>
+        <!-- 生成excel -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.10-FINAL</version>
+        </dependency>
     </dependencies>
 
     <!--仓库路径 -->
@@ -152,6 +158,7 @@
                     <configuration>
                         <source>1.8</source>
                         <target>1.8</target>
+                        <encoding>UTF-8</encoding>
                     </configuration>
                 </plugin>
                 <plugin>

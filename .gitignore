@@ -5,6 +5,9 @@
 # IntelliJ project files
 .idea
 *.iml
+/src/main/resources/application.prpperties
+/target
+/target/
 out
 gen
 ### Java template

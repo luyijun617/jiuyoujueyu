@@ -3,17 +3,14 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
-/src/main/resources/application.prpperties
-/target
-/target/
+/.idea
 out
 gen
 ### Java template
 # Compiled class file
 *.class
-
+/target
+/src/main/resources/application.properties
 # Log file
 *.log
 

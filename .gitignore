@@ -10,7 +10,7 @@ gen
 # Compiled class file
 *.class
 /target
-/src/main/resources/application.properties
+#/src/main/resources/application.properties
 # Log file
 *.log
 

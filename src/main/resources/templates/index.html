@@ -11,16 +11,13 @@
 <body>
 <table style="position: center">
     <tr>
-        <td><h1>Hello world!</h1></td>
+        <td><button onclick="uploadImg">图片上传</button></td>
     </tr>
     <tr>
-        <td>图片上传：<input type="text" id="upload" onclick="pictureUpload()"/></td>
+        <td><button onclick="downloadImg">图片下载</button>/td>
     </tr>
     <tr>
-        <td>图片下载：<input type="text" id="download" onblur="picDownload()"/></td>
-    </tr>
-    <tr>
-        <td><img src="/img/home-cat.jpg"/></td>
+        <td><img src="/img/home.jpg"/></td>
     </tr>
 </table>
 <script>
@@ -29,12 +26,12 @@
     //     alert("123")
     // }),
     // })
-    function pictureUpload() {
-        alert("pictureUpload")
+    function uploadImg() {
+        console.log("pictureUpload")
     }
 
-    function picDownload() {
-        alert("picDownload")
+    function downloadImg() {
+        console.log("picDownload")
     }
 </script>
 

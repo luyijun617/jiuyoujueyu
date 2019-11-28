@@ -103,7 +103,7 @@ public class ExportExcel {
             row.setHeightInPoints(30);
         }
         for (int j = 0; j < datas[0].length; j++) {
-            sheet.setColumnWidth(j, MSExcelUtil.pixel2WidthUnits(160));
+            sheet.setColumnWidth(j, MSExcelUtils.pixel2WidthUnits(160));
         }
         wb.write(new FileOutputStream("C:/Users/shuai.luo/Desktop/table6.xls"));
     }
@@ -120,8 +120,8 @@ public class ExportExcel {
         CreationHelper helper = wb.getCreationHelper();
         Drawing drawing = sheet.createDrawingPatriarch();
         ClientAnchor anchor = helper.createClientAnchor();
-        anchor.setDx1(MSExcelUtil.pixel2WidthUnits(60));
-        anchor.setDy1(MSExcelUtil.pixel2WidthUnits(60));
+        anchor.setDx1(MSExcelUtils.pixel2WidthUnits(60));
+        anchor.setDy1(MSExcelUtils.pixel2WidthUnits(60));
         anchor.setCol1(beginColl); //图片开始列数
         anchor.setRow1(beginRow); //图片开始行数
         anchor.setCol2(endColl); //图片结束列数

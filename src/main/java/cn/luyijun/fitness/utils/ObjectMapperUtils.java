@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
  *
  * @author chengyao.liang
  */
-public class ObjectMapperTool {
+public class ObjectMapperUtils {
 
     public final static ObjectMapper mapper = new ObjectMapper();
 

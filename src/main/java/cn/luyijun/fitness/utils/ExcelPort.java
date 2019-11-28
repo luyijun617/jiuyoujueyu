@@ -123,7 +123,7 @@ public class ExcelPort {
         }
         addPicture(wb, sheet, 0, 1, 2, 3, imgPathName);
         for (int j = 0; j < datas[0].length; j++) {
-            sheet.setColumnWidth(j, MSExcelUtil.pixel2WidthUnits(150));
+            sheet.setColumnWidth(j, MSExcelUtils.pixel2WidthUnits(150));
         }
         wb.write(new FileOutputStream(path)); //存储文件路径
         System.out.println("Excel>>> 导出成功!!!");

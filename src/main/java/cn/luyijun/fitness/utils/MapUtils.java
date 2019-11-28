@@ -12,7 +12,7 @@ import javax.net.ssl.SSLContext;
 import java.security.cert.X509Certificate;
 import java.util.Map;
 
-public class MapApi {
+public class MapUtils {
 
     private static RestTemplate restTemplate;
 
@@ -72,7 +72,7 @@ public class MapApi {
             String sig = Md5Utils.getMd5(param);
 
             String str = restTemplate.getForObject(ADDRESS_TO_LOCATION_URL, String.class, address, key, sig);
-            Map<String, Object> map = ObjectMapperTool.fromJson(str, new TypeReference<Map<String, Object>>() {
+            Map<String, Object> map = ObjectMapperUtils.fromJson(str, new TypeReference<Map<String, Object>>() {
             });
             //解析数据
             String status = map.get("status").toString();
@@ -89,6 +89,6 @@ public class MapApi {
     }
 
     public static void main(String[] args) {
-        MapApi.addressResolution("上海市杨浦区淞沪路77号(近邯郸路)");
+        MapUtils.addressResolution("上海市杨浦区淞沪路77号(近邯郸路)");
     }
 }

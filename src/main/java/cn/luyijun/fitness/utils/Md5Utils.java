@@ -48,6 +48,10 @@ public class Md5Utils {
 
     public static void main(String[] args) throws Exception {
         System.out.println(getMd5("HelloWorld"));
-        System.out.println(getMD5(new File("/home/leen/agent-1.0.11.zip")));
+        System.out.println(getMD5(new File("C:\\Users\\lyj\\Desktop\\miko\\blsmen\\img.jpg")));
+
+        System.out.println(DigestUtils.md5Hex("HelloWorld"));
+        System.out.println(getMD5(new File("C:\\Users\\lyj\\Desktop\\miko\\blsmen\\img.jpg")));
+
     }
 }

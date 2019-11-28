@@ -1,6 +1,6 @@
 package cn.luyijun.fitness.utils;
 
-public class MSExcelUtil {
+public class MSExcelUtils {
 
     public static final short EXCEL_COLUMN_WIDTH_FACTOR = 256;
     public static final int UNIT_OFFSET_LENGTH = 7;

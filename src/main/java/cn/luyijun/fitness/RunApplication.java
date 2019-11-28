@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableCaching
 @SpringBootApplication
 @EnableTransactionManagement
-@MapperScan("cn.luyijun.fitness.dao")
+@MapperScan("cn.luyijun.fitness")
 @EnableAsync
 public class RunApplication {
 

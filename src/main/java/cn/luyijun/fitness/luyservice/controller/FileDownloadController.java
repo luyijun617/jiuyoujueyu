@@ -1,4 +1,4 @@
-package cn.luyijun.fitness.controller;
+package cn.luyijun.fitness.luyservice.controller;
 
 import cn.luyijun.fitness.enums.SystemConstants;
 import org.apache.commons.io.IOUtils;

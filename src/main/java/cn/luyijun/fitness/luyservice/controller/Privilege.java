@@ -1,4 +1,4 @@
-package cn.luyijun.fitness.controller;
+package cn.luyijun.fitness.luyservice.controller;
 
 import org.springframework.web.bind.annotation.Mapping;
 

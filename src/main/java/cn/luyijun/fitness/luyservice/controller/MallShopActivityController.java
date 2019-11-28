@@ -1,7 +1,7 @@
-package cn.luyijun.fitness.controller;
+package cn.luyijun.fitness.luyservice.controller;
 
 import cn.luyijun.fitness.entity.response.RespResult;
-import cn.luyijun.fitness.service.MallShopActivityService;
+import cn.luyijun.fitness.luyservice.service.MallShopActivityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

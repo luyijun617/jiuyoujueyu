@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.luyijun.fitness.dao.LuyUserLoginDao">
+<mapper namespace="cn.luyijun.fitness.luyservice.dao.LoginDao">
     <resultMap id="BaseResultMap" type="cn.luyijun.fitness.entity.UserInfo">
         <id column="id" property="id" jdbcType="INTEGER"/>
         <!--<id column="user_id" property="userId" jdbcType="VARCHAR"/>-->

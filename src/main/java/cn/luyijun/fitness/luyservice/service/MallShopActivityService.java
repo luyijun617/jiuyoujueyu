@@ -1,4 +1,4 @@
-package cn.luyijun.fitness.service;
+package cn.luyijun.fitness.luyservice.service;
 
 import cn.luyijun.fitness.entity.MallShopActivity;
 

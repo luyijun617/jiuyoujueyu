@@ -1,20 +1,21 @@
-package cn.luyijun.fitness.controller;
+package cn.luyijun.fitness.luyservice.controller;
 
 import cn.luyijun.fitness.entity.UserInfo;
-import cn.luyijun.fitness.service.LuyUserLoginService;
+import cn.luyijun.fitness.luyservice.service.LoginService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.annotation.Resource;
 
 
 @Slf4j
 @Controller
 public class IndexController {
 
-    @Autowired
-    LuyUserLoginService luyUserLoginService;
-
+    @Resource
+    LoginService loginService;
 
     @RequestMapping("/")
     public String index(){
@@ -32,7 +33,7 @@ public class IndexController {
 //        userInfo.setUserId("1");
         userInfo.setUserName("admin");
         userInfo.setPassword("123456");
-        luyUserLoginService.insert(userInfo);
+        loginService.insert(userInfo);
 
         return "register";
     }
@@ -42,5 +43,9 @@ public class IndexController {
         return "login";
     }
 
+    @RequestMapping("/activityAdd")
+    public String helloWorld(){
+        return "activityAdd";
+    }
 
 }

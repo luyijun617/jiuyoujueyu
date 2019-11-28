@@ -1,8 +1,8 @@
-package cn.luyijun.fitness.service.Impl;
+package cn.luyijun.fitness.luyservice.service.Impl;
 
-import cn.luyijun.fitness.dao.MallShopActivityDao;
+import cn.luyijun.fitness.luyservice.dao.MallShopActivityDao;
 import cn.luyijun.fitness.entity.MallShopActivity;
-import cn.luyijun.fitness.service.MallShopActivityService;
+import cn.luyijun.fitness.luyservice.service.MallShopActivityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

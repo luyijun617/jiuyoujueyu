@@ -1,10 +1,7 @@
 package cn.luyijun.fitness.interceptor;
 
-import cn.luyijun.fitness.interceptor.MyInvocationHandler;
-import cn.luyijun.fitness.dao.LuyUserLoginDao;
-import cn.luyijun.fitness.service.Arithmetic;
-import cn.luyijun.fitness.service.Impl.ArithmeticImpl;
-import org.apache.commons.lang3.StringUtils;
+import cn.luyijun.fitness.luyservice.service.Arithmetic;
+import cn.luyijun.fitness.luyservice.service.Impl.ArithmeticImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,6 +1,6 @@
-package cn.luyijun.fitness.service.Impl;
+package cn.luyijun.fitness.luyservice.service.Impl;
 
-import cn.luyijun.fitness.service.Arithmetic;
+import cn.luyijun.fitness.luyservice.service.Arithmetic;
 
 public class ArithmeticImpl implements Arithmetic {
     @Override

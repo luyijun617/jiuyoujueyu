@@ -1,8 +1,8 @@
-package cn.luyijun.fitness.service;
+package cn.luyijun.fitness.luyservice.service;
 
 import cn.luyijun.fitness.entity.UserInfo;
 
-public interface LuyUserLoginService {
+public interface LoginService {
 
     void insert(UserInfo userInfo);
 

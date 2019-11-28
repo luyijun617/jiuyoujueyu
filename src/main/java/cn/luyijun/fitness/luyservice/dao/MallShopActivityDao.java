@@ -1,4 +1,4 @@
-package cn.luyijun.fitness.dao;
+package cn.luyijun.fitness.luyservice.dao;
 
 import cn.luyijun.fitness.entity.MallShopActivity;
 

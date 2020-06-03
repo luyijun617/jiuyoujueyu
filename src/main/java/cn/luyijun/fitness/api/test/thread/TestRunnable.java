@@ -1,5 +1,7 @@
 package cn.luyijun.fitness.api.test.thread;
 
+import cn.luyijun.fitness.api.test.template.Fruit;
+
 public class TestRunnable implements Runnable {
 
     public String data;
@@ -39,7 +41,7 @@ public class TestRunnable implements Runnable {
         } else {
             String[] split1 = split[0].split(":");
             Integer integer = Integer.valueOf(split1[2]);
-            String f = fruit.getFruit(integer);
+            String f = fruit.eatFruit();
             System.out.println("------------------------- fruit ----------------------------" + f);
         }
         try {

@@ -1,6 +1,6 @@
 package cn.luyijun.fitness.api.test;
 
-import cn.luyijun.fitness.api.luyservice.entity.StaffInfo;
+import cn.luyijun.fitness.api.service.entity.StaffInfo;
 import cn.luyijun.fitness.utils.ObjectMapperUtils;
 
 import java.io.File;

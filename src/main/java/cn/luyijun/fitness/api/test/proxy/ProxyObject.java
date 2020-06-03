@@ -1,7 +1,7 @@
 package cn.luyijun.fitness.api.test.proxy;
 
-import cn.luyijun.fitness.api.luyservice.service.Arithmetic;
-import cn.luyijun.fitness.api.luyservice.service.Impl.ArithmeticImpl;
+import cn.luyijun.fitness.api.service.service.Arithmetic;
+import cn.luyijun.fitness.api.service.service.Impl.ArithmeticImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

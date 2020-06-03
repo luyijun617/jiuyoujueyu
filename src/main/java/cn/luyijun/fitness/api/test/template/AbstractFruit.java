@@ -31,20 +31,15 @@ public class AbstractFruit implements Fruit, ApplicationContextAware {
 
 
     @Override
-    public String getFruit(int i) {
-        String type;
-        if(i==1){
-            type="Apple";
-        }else {
-            type="Banana";
-        }
+    public Fruit getFruit(int i) {
         Map<String, Fruit> map = applicationContext.getBeansOfType(Fruit.class);
-        for (String key: map.keySet()) {
-            if(key.equals(type)){
-                return key;
-            }
+        Fruit f = null;
+        if(i==1){
+            f = new Apple();
+        }else if(i==2){
+            f = new Banana();
         }
-        return "fruit 找不到";
+        return f;
     }
 
     @Override

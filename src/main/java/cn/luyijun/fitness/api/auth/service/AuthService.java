@@ -1,7 +1,7 @@
 package cn.luyijun.fitness.api.auth.service;
 
-import cn.luyijun.fitness.api.luyservice.entity.AuthReq;
-import cn.luyijun.fitness.api.luyservice.entity.StaffInfo;
+import cn.luyijun.fitness.api.service.entity.AuthReq;
+import cn.luyijun.fitness.api.service.entity.StaffInfo;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;

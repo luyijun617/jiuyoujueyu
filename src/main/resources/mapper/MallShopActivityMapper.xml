@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.luyijun.fitness.api.service.dao.MallShopActivityDao">
-    <resultMap id="BaseResultMap" type="cn.luyijun.fitness.api.service.entity.MallShopActivity">
+<mapper namespace="cn.luyijun.fitness.api.common.dao.MallShopActivityDao">
+    <resultMap id="BaseResultMap" type="cn.luyijun.fitness.api.common.entity.MallShopActivity">
         <id column="activity_id" property="activityId" jdbcType="INTEGER"/>
         <result column="activity_name" property="activityName" jdbcType="VARCHAR"/>
         <result column="shop_code" property="shopCode" jdbcType="VARCHAR"/>

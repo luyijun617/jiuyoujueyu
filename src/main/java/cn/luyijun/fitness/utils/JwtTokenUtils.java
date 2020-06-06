@@ -1,6 +1,6 @@
 package cn.luyijun.fitness.utils;
 
-import cn.luyijun.fitness.api.service.entity.response.RespResult;
+import cn.luyijun.fitness.api.common.entity.response.RespResult;
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

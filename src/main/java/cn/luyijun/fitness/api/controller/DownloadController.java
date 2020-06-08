@@ -3,6 +3,7 @@ package cn.luyijun.fitness.api.controller;
 import cn.luyijun.fitness.api.common.enums.Constants;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,37 +35,24 @@ public class DownloadController {
 //        String httpImgPath = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568798079053&di=8ed9f358ed702f35935e63ea8aaf60ba&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20160816%2F03730864b6a545ccae5bdce4e199a3a1_th.png";
 //        String httpImgPath = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568797064813&di=701425f06914c19c4428973ae090e6dd&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201407%2F09%2F091724o4oy3az2ea372y2o.jpg";
         String httpImgPath = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568796996241&di=fd66e638cf6d0f9bcd4b13b06a1952ab&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201711%2F22%2F20171122112634_mKfiS.jpeg";
-
         download(httpImgPath, request, response);
     }
 
-    private void download(Object obj, HttpServletRequest request, HttpServletResponse response) {
+    private void download(String httpUrl, HttpServletRequest request, HttpServletResponse response) {
         DataInputStream in = null;
         ServletOutputStream out = null;
         try {
-            String fileName = request.getParameter("fileName");
-            if (fileName == null) fileName = UUID.randomUUID().toString().replace("-", "");
-            //设置文件名编码
-            String userAgent = request.getHeader("User-Agent");
-            if (userAgent.toUpperCase().contains("MOZILLA") || userAgent.toUpperCase().contains("CHROME")) {
-                fileName = new String(fileName.getBytes(), "ISO-8859-1");
-            } else {
-                fileName = URLEncoder.encode(fileName, "UTF-8");
-            }
-            URL url2 = new URL(obj.toString());
-            DataInputStream dataInputStream = new DataInputStream(url2.openStream());
-            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-            byte[] buffer2 = new byte[1024];
-            int len2;
-            while ((len2 = dataInputStream.read(buffer2)) > 0) {
-                byteArrayOutputStream.write(buffer2, 0, len2);
-            }
-            byte[] bytes = byteArrayOutputStream.toByteArray();
-            String suffix = getImageFormat(bytes);
+            String fileName = StringUtils.isNotEmpty(request.getParameter("fileName"))
+                    ? request.getParameter("fileName")
+                    : UUID.randomUUID().toString().replace("-", "");
+
+            byte[] fileBytes = getFileBytes(httpUrl);
+            String suffix = getFileType(fileBytes);
+            fileName = formatFileName(request, fileName);
             fileName = fileName + "." + suffix;
             response.setHeader("content-disposition", "attachment;filename=" + fileName);
 
-            URL url = new URL(obj.toString());
+            URL url = new URL(httpUrl);
             in = new DataInputStream(url.openStream());
             out = response.getOutputStream();
             byte[] buffer = new byte[1204];
@@ -170,11 +158,34 @@ public class DownloadController {
         System.out.println("copyByFileChannel,耗时:" + (endTime - beginTime) + " ms");
     }
 
+    //设置文件名编码
+    public String formatFileName(HttpServletRequest request, String fileName) throws UnsupportedEncodingException {
+        String userAgent = request.getHeader("User-Agent");
+        if (userAgent.toUpperCase().contains("MOZILLA") || userAgent.toUpperCase().contains("CHROME")) {
+            fileName = new String(fileName.getBytes(), "ISO-8859-1");
+        } else {
+            fileName = URLEncoder.encode(fileName, "UTF-8");
+        }
+        return fileName;
+    }
+
+    public static byte[] getFileBytes(String httpUrl) throws IOException {
+        URL url = new URL(httpUrl);
+        DataInputStream in = new DataInputStream(url.openStream());
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        byte[] buffer2 = new byte[1024];
+        int len2;
+        while ((len2 = in.read(buffer2)) > 0) {
+            out.write(buffer2, 0, len2);
+        }
+        byte[] bytes = out.toByteArray();
+        return bytes;
+    }
 
     /**
      * 获取文件头信息，该方法可以获取所有文件的类型
      */
-    public String getImageFormat(byte[] byteArray) {
+    public static String getFileType(byte[] byteArray) {
         byte[] src = new byte[28];
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < src.length; i++) {
@@ -186,17 +197,15 @@ public class DownloadController {
             stringBuilder.append(hv);
         }
         String type = stringBuilder.toString();
-        Constants.FileType[] values = Constants.FileType.values();
-        for (Constants.FileType enums : values) {
+        for (Constants.FileType enums : Constants.FileType.values()) {
             if (type.startsWith(enums.getFileType())) {
-                log.info("文件格式为=" + enums.name());
                 return enums.name().toLowerCase();
             }
         }
         return "文件格式错误";
     }
 
-    public void base64ToImage(String base64Code, String imgPathName) {
+    public static void base64ToImage(String base64Code, String imgPathName) {
         BASE64Decoder base64Decoder = new BASE64Decoder();
         FileOutputStream out = null;
         try {
